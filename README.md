@@ -63,11 +63,20 @@ Mid-tenure, one-year contract, high monthly charges - 42% - 🟡 Medium
 
 📂 FILE STRUCTURE
 telco-churn-app/
-├── app.py               # Main Streamlit application
-├── xgboost_churn_model.pkl  # Trained XGBoost model
-├── preprocessor.pkl     # Data preprocessing pipeline
-├── requirements.txt     # Python dependencies
-└── README.md            # This documentation
+├── app.py              
+# Main Streamlit application
+
+├── xgboost_churn_model.pkl  
+# Trained XGBoost model
+
+├── preprocessor.pkl     
+# Data preprocessing pipeline
+
+├── requirements.txt     
+# Python dependencies
+
+└── README.md           
+# This documentation
 
 🤝 CONTRIBUTING
 1. Fork the repository
