@@ -1,7 +1,7 @@
 # Customer-Churn-Pred
 This Streamlit application predicts customer churn probability for telecom companies using machine learning. Based on customer attributes and service details, it identifies high-risk customers and highlights key factors driving churn.
 
-Access the live app from here - 
+Access the live app from here - https://customer-churn-pred-hm7e3ipexcstvt7qkzw36q.streamlit.app/
 
 🚀 FEATURES
 - Real-time churn probability prediction
