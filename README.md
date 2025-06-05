@@ -3,7 +3,7 @@ This Streamlit application predicts customer churn probability for telecom compa
 
 Access the live app from here - https://customer-churn-pred-hm7e3ipexcstvt7qkzw36q.streamlit.app/
 
-🚀 FEATURES
+# 🚀 FEATURES
 - Real-time churn probability prediction
 
 - Risk level classification (High/Medium/Low)
@@ -14,28 +14,28 @@ Access the live app from here - https://customer-churn-pred-hm7e3ipexcstvt7qkzw3
 
 - Example customer profiles for quick testing
 
-🧠 MODEL DETAILS
-- Algorithm: XGBoost Classifier
+# 🧠 MODEL DETAILS
+- **Algorithm:** XGBoost Classifier
 
-- Accuracy: ~81% on test data
+- **Accuracy:** ~81% on test data
 
-- Training Data: Telco Customer Churn Dataset
+- **Training Data:** Telco Customer Churn Dataset
 
-- Key Features: Contract type, tenure, payment method, service details
+- **Key Features:** Contract type, tenure, payment method, service details
 
-💻 LOCAL INSTALLATION
-1. Clone repository:
+# 💻 LOCAL INSTALLATION
+1. **Clone repository:**
    git clone https://https://github.com/yashydv9/Customer-Churn-Pred
    
    cd telco-churn-app
 
-2. Install dependencies:
+2. **Install dependencies:**
    pip install -r requirements.txt
 
-3. Run the application:
+3. **Run the application:**
    streamlit run cust_churn_pred.py
 
-🛠️ Technical Requirements
+# 🛠️ Technical Requirements
 - Python 3.8+
 
 - Streamlit
@@ -52,7 +52,7 @@ Access the live app from here - https://customer-churn-pred-hm7e3ipexcstvt7qkzw3
 
 - seaborn
 
-📊 EXAMPLE PREDICTIONS
+# 📊 EXAMPLE PREDICTIONS
 Customer Profile - Churn Probability - Risk Level
 
 Senior citizen, month-to-month contract, fiber internet - 92% - 🔴 High
@@ -61,22 +61,22 @@ Long-term customer, two-year contract, automatic payment - 8% - 🟢 Low
 
 Mid-tenure, one-year contract, high monthly charges - 42% - 🟡 Medium
 
-📂 FILE STRUCTURE
+# 📂 FILE STRUCTURE
 telco-churn-app/
 ├── app.py              
-# Main Streamlit application
+**Main Streamlit application**
 
 ├── xgboost_churn_model.pkl  
-# Trained XGBoost model
+**Trained XGBoost model**
 
 ├── preprocessor.pkl     
-# Data preprocessing pipeline
+**Data preprocessing pipeline**
 
 ├── requirements.txt     
-# Python dependencies
+**Python dependencies**
 
 └── README.md           
-# This documentation
+**This documentation**
 
 🤝 CONTRIBUTING
 1. Fork the repository
