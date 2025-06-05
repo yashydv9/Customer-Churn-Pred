@@ -25,7 +25,8 @@ Access the live app from here - https://customer-churn-pred-hm7e3ipexcstvt7qkzw3
 
 💻 LOCAL INSTALLATION
 1. Clone repository:
-   git clone https://https://github.com/yashydv9/Customer-Churn-Pred.git
+   git clone https://https://github.com/yashydv9/Customer-Churn-Pred
+   
    cd telco-churn-app
 
 2. Install dependencies:
@@ -53,8 +54,11 @@ Access the live app from here - https://customer-churn-pred-hm7e3ipexcstvt7qkzw3
 
 📊 EXAMPLE PREDICTIONS
 Customer Profile - Churn Probability - Risk Level
+
 Senior citizen, month-to-month contract, fiber internet - 92% - 🔴 High
+
 Long-term customer, two-year contract, automatic payment - 8% - 🟢 Low
+
 Mid-tenure, one-year contract, high monthly charges - 42% - 🟡 Medium
 
 📂 FILE STRUCTURE
